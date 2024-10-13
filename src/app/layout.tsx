@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-black">
         <div className="flex justify-center mt-10 mb-5">
-          <NavigationMenu className="border-white border-b-4 rounded-sm">
+          <NavigationMenu className="border-white border-b-4">
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink href ="/" className={`${navigationMenuTriggerStyle()} bg-black text-slate-100 hover:bg-neutral-800 hover:text-white`}>
