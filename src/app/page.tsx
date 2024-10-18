@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex justify-center mt-16 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center w-full max-w-4xl">
         <div className="flex flex-col md:flex-row w-full items-center">
-          <div className="flex flex-col items-center w-full md:w-auto mr-20">
+          <div className="flex flex-col text-center md:text-left w-full md:w-auto mx-16">
             <div className="text-white text-5xl font-bold text-center" style={{ minWidth: `500px` }}>
               <span>Hey, I'm </span>
               <TypeAnimation
@@ -35,8 +35,6 @@ export default function Home() {
               alt="Headshot"
               width={350}
               height={350}
-              quality={100}
-              layout="responsive"
             />
           </div>
         </div>
