@@ -1,5 +1,5 @@
-import ExperienceCard from "@/components/ui/ExperienceCard";
-import ProjectCard from "@/components/ui/ProjectCard";
+import ExperienceCard from "@/components/ExperienceCard";
+import ProjectCard from "@/components/ProjectCard";
 
 const experiencesList = [
     {
