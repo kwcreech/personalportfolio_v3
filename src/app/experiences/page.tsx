@@ -1,5 +1,5 @@
 import ExperienceCard from "@/components/ui/ExperienceCard";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/ui/ProjectCard";
 
 const experiencesList = [
     {
@@ -23,7 +23,7 @@ const projectsList = [
         id: 2,
         imgURL: "/NutriWise.png",
         title: "NutriWise",
-        description: "Fullstack website that uses OpenAI to provide personalized diet/nutrition guidance.",
+        description: "Fullstack website that uses OpenAI to provide personalized diet guidance.",
         gitURL: "https://github.com/kwcreech/hacknc2023-NutriWise",
     }
 ]

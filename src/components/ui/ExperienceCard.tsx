@@ -13,7 +13,7 @@ interface ExperienceCardProps {
 export default function ExperienceCard({ imgURL, title, description, website }: ExperienceCardProps) {
     return (
         <div>
-            <Card>
+            <Card className="h-80 flex flex-col justify-between">
                 <CardHeader className="text-center">
                     <CardTitle>{title}</CardTitle>
                     <CardDescription>{description}</CardDescription>

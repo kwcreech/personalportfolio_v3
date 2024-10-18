@@ -14,12 +14,12 @@ interface ProjectCardProps {
 export default function ProjectCard({ imgURL, title, description, gitURL }: ProjectCardProps) {
     return (
         <div>
-            <Card className="h-56">
+            <Card className="h-56 flex flex-col justify-between">
                 <CardHeader className="text-center">
                     <CardTitle>{title}</CardTitle>
                     <CardDescription>{description}</CardDescription>
                 </CardHeader>
-                <CardContent className="flex justify-center">
+                <CardContent className="flex justify-center h-18">
                     <Image 
                         src={imgURL}
                         alt="Project Photo"
