@@ -29,7 +29,7 @@ export default function RootLayout({
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink href ="/experiences" className={`${navigationMenuTriggerStyle()} bg-black text-slate-100 hover:bg-neutral-800 hover:text-white`}>
-                  Projects + Experiences
+                  Experiences + Projects
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
