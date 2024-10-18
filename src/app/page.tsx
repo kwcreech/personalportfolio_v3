@@ -39,12 +39,12 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-12 mb-5 flex flex-row space-x-8">
-          <Button asChild className="font-semibold bg-gradient-to-r from-indigo-500 to-cyan-400 h-10">
+          <Button asChild className="font-bold bg-gradient-to-r from-indigo-500 to-cyan-400 h-10 text-white">
               <a href="https://linkedin.com/in/kerry-creech-b36b772aa" target="_blank" rel="noopener noreferrer">
                 <LinkedInLogoIcon className="m-2" /> LinkedIn
               </a>
           </Button>
-          <Button asChild className="font-semibold bg-gradient-to-r from-indigo-500 to-cyan-400 h-10">
+          <Button asChild className="font-bold bg-gradient-to-r from-indigo-500 to-cyan-400 h-10 text-white">
             <a href="https://github.com/kwcreech" target="_blank" rel="noopener noreferrer">
               <GithubIcon className="m-2" /> GitHub
             </a>
