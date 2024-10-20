@@ -14,7 +14,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ imgURL, title, description, gitURL }: ProjectCardProps) {
     return (
         <div>
-            <Card className="h-56 flex flex-col justify-between">
+            <Card className="h-56 flex flex-col justify-between border-white border-2">
                 <CardHeader className="text-center">
                     <CardTitle>{title}</CardTitle>
                     <CardDescription>{description}</CardDescription>
