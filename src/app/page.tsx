@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row w-full items-center">
           <div className="flex flex-col text-center md:text-left w-full md:w-auto mx-16">
             <div className="text-white text-5xl font-bold text-center" style={{ minWidth: `500px` }}>
-              <span>Hey, I'm </span>
+              <span>Hey, I&apos;m </span>
               <TypeAnimation
                 sequence={[
                   "Kerry.",
