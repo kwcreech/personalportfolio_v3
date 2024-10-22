@@ -8,7 +8,8 @@ import {
 
 export default function NavBar() {
     return(
-        <div className="flex justify-center mt-10 mb-5">
+      <div className="fixed top-0 w-full z-50 bg-black">
+        <div className="flex justify-center mt-8">
           <NavigationMenu className="border-white border-b-4">
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -29,5 +30,6 @@ export default function NavBar() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
+      </div>
     );
 }
