@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className=" w-64 md:w-80 lg:w-96 mt-10 md:mt-0 aspect-w-1 aspect-h-1 rounded-full overflow-hidden">
             <Image 
-              src="/square_headshot.png"
+              src="/square_headshot.PNG"
               alt="Headshot"
               width={350}
               height={350}

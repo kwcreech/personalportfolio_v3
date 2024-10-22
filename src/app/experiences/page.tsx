@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ProjectCard";
 const experiencesList = [
     {
         id: 1,
-        imgURL: "/aroundent.png",
+        imgURL: "/aroundent.PNG",
         title: "A Round Entertainment",
         description: "Software Engineering Intern",
         website: "https://www.aroundentgroup.com/",
