@@ -32,7 +32,7 @@ export default function Experiences() {
     return (
         <div className="flex flex-col m-8 dark">
             <div>
-                <h1 className="text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-400 text-4xl font-extrabold mb-5 leading-tight">Experiences</h1>
+                <h1 className="text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-400 text-4xl font-extrabold mb-10 leading-tight">Experiences</h1>
                 <div className="flex flex-wrap justify-center gap-8 mb-16">
                     {experiencesList.map((experience) =>
                         <ExperienceCard 
@@ -47,7 +47,7 @@ export default function Experiences() {
                 </div>
             </div>
             <div>
-                <h1 className="text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-400 text-4xl font-extrabold mb-5 leading-tight">Projects</h1>
+                <h1 className="text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-cyan-400 text-4xl font-extrabold mb-10 leading-tight">Projects</h1>
                 <div className="flex flex-wrap justify-center gap-8 mb-16">
                     {projectsList.map((project) =>
                         <ProjectCard 
